@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int age,a;
+char firstname[20],lastname[20];
+cout<<"First name:";
+cin>>firstname;
+cout<<"Last name:";
+cin>>lastname;
+cout<<"\n Age:";
+cin>>age;
+if(age>=18)
+{
+cout<<"\n"<<firstname<<" "<<lastname<<"  is eligible for voting.";
+cout<<"\n Voting is the expression of our commitment to ourselves, one another, this country, and this world.";
+}
+else
+{
+	a=18-age;
+cout<<"\n"<<firstname<<" "<<lastname<<"  is not eligible for voting.";
+cout<<"\n wait for "<<a<<" years.";
+}
+return 0;
+}
